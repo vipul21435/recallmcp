@@ -2,6 +2,8 @@ Forked from https://github.com/weiwill88/Local_Pdf_Chat_RAG.
 
 # RecallMCP
 
+[![CI](https://github.com/vipul21435/recallmcp/actions/workflows/ci.yml/badge.svg)](https://github.com/vipul21435/recallmcp/actions/workflows/ci.yml)
+
 A local-first retrieval service with two interfaces over one core: a
 FastAPI API and an MCP server (stdio) over pluggable embeddings, FAISS +
 BM25 hybrid retrieval and optional cross-encoder reranking, with an SQLite
@@ -648,6 +650,15 @@ Read [`CONTRIBUTING.md`](CONTRIBUTING.md) and
 [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md) before opening a pull request.
 Report vulnerabilities as described in [`SECURITY.md`](SECURITY.md), not in a
 public issue.
+
+## Related tools
+
+- [evalstats](https://github.com/vipul21435/evalstats): error bars, paired comparisons and sample-size planning for model evaluations scored per item.
+- [datasieve](https://github.com/vipul21435/datasieve): validate and deduplicate LLM training data (SFT and preference records) from one declarative pipeline spec.
+- [agentenv](https://github.com/vipul21435/agentenv): a gym-style environment for tool-using LLM agents with verifiable rewards.
+- [judgebias](https://github.com/vipul21435/judgebias): audit an LLM judge for position bias, length bias, self-preference and agreement with human labels.
+
+The full list is on the author's profile: https://github.com/vipul21435
 
 ## License
 
